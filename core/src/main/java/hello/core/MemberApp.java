@@ -1,9 +1,9 @@
 package hello.core;
 
-import member.Grade;
-import member.Member;
-import member.MemberService;
-import member.MemberServiceImpl;
+import hello.core.member.Grade;
+import hello.core.member.Member;
+import hello.core.member.MemberService;
+import hello.core.member.MemberServiceImpl;
 
 public class MemberApp {
     public static void main(String[] args) {

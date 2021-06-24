@@ -1,7 +1,4 @@
-package member;
-
-import java.util.List;
-import java.util.Optional;
+package hello.core.member;
 
 public interface MemberRepository {
     void save(Member member);
