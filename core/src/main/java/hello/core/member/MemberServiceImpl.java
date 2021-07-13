@@ -1,5 +1,7 @@
 package hello.core.member;
 
+import hello.core.order.Order;
+
 public class MemberServiceImpl implements MemberService{
     private final MemberRepository memberRepository; // only depending on the MemberRepository Interface
                                                     // Now this class focuses on execution not dependency
@@ -16,4 +18,10 @@ public class MemberServiceImpl implements MemberService{
     public Member findMember(Long memberId) {
         return memberRepository.findById(memberId);
     }
+
+    //Test
+    public MemberRepository getMemberRepository(){
+        return memberRepository;
+    }
+
 }
